@@ -1,0 +1,534 @@
+footer {
+    background-color: #433A44;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    color: #FFFFFF;
+    margin-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+
+footer a 
+{
+ text-decoration: none;
+ color: #FFFFFF;
+
+}
+
+footer a:hover 
+{
+
+color:#9b1700;
+
+}
+
+
+.nombre {
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-top: 3%;
+    font-size: 8px;
+
+}
+
+.redes_sociales {
+
+text-align: end;
+font-size: 12px;
+
+}
+
+.inicio_pag {
+
+text-align: end;
+
+}
+
+.info {
+
+font-size:12px;
+
+}
+
+header {
+    background-color:#e8e8e8;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+  
+    
+}
+
+.logo {
+
+    grid-column: 1/2;
+    display: flex;
+   align-items: center;
+
+
+}
+
+.oscars {
+
+text-decoration: none;
+font-size: 30px;
+color:#1c1c1c;
+font-weight: bold;
+font-family: 'Noto Serif', serif;
+
+
+
+}
+
+.club {
+
+    text-decoration: none;
+    font-size: 30px;
+    color: #9b1700;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+    font-style: italic
+    
+
+}
+
+.ctemat, .ses2020
+{
+
+text-decoration: none;
+font-size: 15px;
+color:#1c1c1c;
+font-weight: bolder;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.ctemat:hover, .ses2020:hover 
+{
+
+opacity: 0.5;
+
+}
+
+.ctemat:active, .ses2020:active 
+{
+
+font-weight: bold;
+font-style: italic;
+
+}
+
+
+.clubs_sesiones
+{
+
+    grid-column: 2/3;
+    text-align: end;
+}
+
+.inicio_sesion
+{
+
+    grid-column: 3/4;
+    text-align: end;
+}
+
+.boton_inicio_sesion
+
+{
+	background-color:#9b1700;
+	color: #FFFFFF;
+	border: 2px solid #9b1700;
+    border-radius:3px;
+    font-family: 'Open Sans', sans-serif;
+	
+}
+
+.boton_inicio_sesion:hover {
+
+color:#1c1c1c;
+
+}
+
+
+.contenedor_clubes {
+ 
+display:grid;
+grid-template-columns: 33% 33% 33%;
+width:70%;
+margin-left:13%;
+grid-gap: 3%;
+}
+
+.titulo_clubes
+{
+    text-align: center;
+}
+
+.texto_clubes 
+{
+
+font-size: 12px;
+
+}
+
+
+.puntos {
+
+margin-top: 4px;
+margin-bottom: 4px;
+color:#9b1700 ;
+font-size: 20px;
+
+}
+
+.titulos_distintos_clubes {
+
+
+color:#1c1c1c;
+
+}
+
+.contenedor_clubes div p a {
+
+text-decoration: none;
+color: #9b1700 ;
+
+
+}
+
+
+.galardonados 
+{
+
+    grid-column: 1/2;
+    grid-row:1/2;
+}
+
+.espacio
+{
+
+    grid-column: 2/3;
+    grid-row:1/2;
+}
+
+.intriga
+{
+
+    grid-column: 3/4;
+    grid-row:1/2;
+}
+
+.epoca 
+{
+
+    grid-column: 1/2;
+    grid-row:2/3;
+}
+
+
+.romanticos
+
+{
+
+    grid-column: 2/3;
+    grid-row:2/3;
+}
+
+
+.nacional 
+{
+
+    grid-column: 3/4;
+    grid-row:2/3;
+}
+
+
+.club1, .club2, .club3, .club4, .club5, .club6
+{
+width: 100%;
+
+}
+
+
+.klauss_container{
+
+display:grid;
+grid-template-columns: 40% 55%;
+grid-column-gap: 20px;
+margin-left:10%;
+margin-right:10%;
+text-align: justify;
+
+}
+
+.tit_tabla 
+{
+
+border-bottom: 1.5px solid #1c1c1c;
+
+}
+
+.sergio-pablos {
+width: 100px;
+border-radius: 50px;
+float:left;
+
+}
+
+.trailer{
+
+width:100%
+
+}
+
+.klaus, .menu_klaus {
+
+    margin-left: 10%;
+    color: #1c1c1c;
+}
+
+.tit_funciona, .tit_unete 
+{
+
+    text-align: center;
+
+
+}
+
+
+.que_oscarsclub
+{
+
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    
+
+}
+
+.como_funciona_contenedor {
+
+display:grid;
+grid-template-columns: 25% 25% 25% 25%;
+margin-left: 15%;
+margin-right: 15%;
+text-align: center;
+}
+
+.howto-register, .howto-club, .howto-film, .howto-speech {
+
+width:60%;
+
+}
+
+.unete_contenedor {
+
+display:grid;
+grid-template-columns: 40% 40%;
+grid-column-gap: 20%;
+margin-left: 15%;
+margin-right: 15%;
+text-align: left;
+
+}
+
+.estamos_esperando
+{
+
+    font-family: 'Noto Serif', serif;
+    font-size: 24px;
+
+
+
+}
+
+
+.entrada_dato {
+
+width:95%;
+height:30px;
+
+}
+
+.info_proteccion_datos, form label {
+
+font-size: 8px;
+font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.registrarse {
+
+	background-color:#9b1700;
+	color: #FFFFFF;
+	border: 6px solid #9b1700;
+    border-radius:3px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.registrarse:hover{
+
+    color:#1c1c1c;
+
+}
+
+
+.sesiones_club {
+
+display:grid;
+grid-template-columns: 27% 73%;
+margin-left:15%;
+margin-right: 15%;
+font-family: 'Open Sans', sans-serif;
+border-top: 3px dotted  #9b1700;
+
+}
+
+.sesiones_club div p 
+{
+
+margin-top: 25px;;
+
+
+}
+
+.sesiones_club div div a 
+{
+
+text-decoration: none;
+
+}
+
+.titulos_pelis 
+{
+
+ font-weight: bold;
+ color: #9b1700;
+ font-family: 'Open Sans', sans-serif;
+
+}
+
+.club1-movie1, .club1-movie2, .club1-movie3, .club2-movie1, .club2-movie2, .club2-movie3, .club3-movie1, .club3-movie2, .club3-movie3, .club4-movie1, .club4-movie2, .club4-movie3, .club5-movie1, .club5-movie2, .club5-movie3, .club6-movie1, .club6-movie2, .club6-movie3 
+{
+
+width:100%;
+
+} 
+
+.sesiones_galardonados, .sesiones_espacio, .sesiones_intriga, .sesiones_romanticos, .sesiones_nacional, .sesiones_epoca 
+{
+
+display:grid; 
+grid-template-columns: 33% 33% 33%;
+
+
+}
+
+.sesiones_2020 
+{
+
+margin-left: 20%;
+margin-right: 20%;
+color:#1c1c1c;
+font-family: 'Noto Serif', serif;
+margin-bottom: 20px;
+margin-top: 20px;
+
+}
+
+.tit_sesi_2020 {
+
+    text-align: center;
+
+}
+
+.texto_sesi2020 
+{
+
+text-align: left;
+
+}
+
+body
+{
+background-color: #e8e8e8;
+font-family: 'Noto Serif', serif;
+
+
+
+}
+
+
+
+.sesiones_club div div div a:hover {
+
+opacity: 0.5;
+
+}
+
+.sesiones_club div div div {
+
+text-align: center;
+background-color: #FFFFFF;
+}
+
+.sesiones_por_club
+{
+
+font-size: 22px;
+font-weight: bold;
+font-family: 'Noto Serif', serif;
+line-height: 6px;
+
+}
+
+.lista_clubs 
+{
+
+font-size: 12px;
+text-align: left;
+line-height: 6px;
+
+}
+
+.lista_clubs a {
+text-decoration: none;
+color: #1c1c1c;
+
+}
+
+.lista_clubs a:hover 
+{
+
+color:#9b1700;
+
+}
+
+
+.oscarclub a, .clubs_sesiones a {
+
+color:#1c1c1c;
+
+}
+
+.menu_klaus 
+{
+    
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.menu_klaus a 
+{
+    text-decoration: none;
+color: #1c1c1c;
+
+}
